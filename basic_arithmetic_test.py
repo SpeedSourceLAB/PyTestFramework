@@ -6,12 +6,12 @@ def test_add():
 def testsubtract():
     a=6
     b=3
-    assert a-b == 2, "Expected:{}, Result: {}".format(a-b,2)
+    assert a-b == 2
 
-def multiplytest():
+def testmultiplytest():
     a=6
     b=3
-    assert a * b == 6, "Expected: {}, Result: {}".format(a*b,6)
+    assert a * b == 18, "My name is {}".format("vandy")
 
 def divide():
     a=6
