@@ -1,20 +1,20 @@
 import pytest
 
 @pytest.fixture
-def numbers():
+def numbers1():
     a=9
     b=3
     return a,b
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture()
 def numbers_setup_teardown():
-    print("\nsetup")
+    #print("\nsetup")
     a=9
     b=3
-    #return a,b
-    yield a,b
-    print("\nteardown")
+    return a,b
+    #yield a,b
+    #print("\nteardown")
 
 
 
