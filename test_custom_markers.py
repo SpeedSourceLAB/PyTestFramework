@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.mark.regression
 def test_database_insert_record(database_connection):
     if (database_connection):
