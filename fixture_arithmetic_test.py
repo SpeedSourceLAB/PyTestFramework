@@ -1,7 +1,5 @@
 import pytest
 
-
-
 def test_add(numbers):
     assert numbers[0] + numbers[1] == 5, "Expected: {}, Result: {}".format(numbers[0]+numbers[1],5)
 
