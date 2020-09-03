@@ -29,3 +29,4 @@ def test_smaller_equal(numbers):
 def test_greater_equal(numbers):
     assert numbers[0] >= numbers[1],\
         "{} not less than {}".format(numbers[0],numbers[1])
+    
