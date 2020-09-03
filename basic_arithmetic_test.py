@@ -12,6 +12,7 @@ def multiplytest():
     a=6
     b=3
     assert a * b == 18,  "Expected: {}, Result: {}".format(a*b,18)
+    
 
 def divide():
     a=6
